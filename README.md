@@ -25,4 +25,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML, CSS e JS)
 - Git, Github (actions, pages)
-- Fter conta no [Figma](https://figma.com) para acessá-lo.
