@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+ --first-color:  #A30000;
+ --second-color: rgba(206, 206, 206, 0.623);
+}
+
+
+body {
+    background-color: var(--second-color);
+    color: var(--first-color);
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    color: white;
+    padding: 5px;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--first-color);
+}
+    
+.logo {
+    padding-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+
+header a {
+    color: white;
+}
+
+a {
+   color: var(--first-color);
+    text-decoration: none;
+    transition: transform 0.3s ease-in;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 32px;
+    display: flex;
+    list-style-type: none;
+}
+
+main {
+    padding-top: 10%;
+ 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login {
+    text-align: center;
+}
+
+input[type="email"] {
+    margin-top: 2%;
+    max-width: 290px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.login button {
+     margin-top: 2%;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+  
+    background: #6E6D70;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+  
+.types {
+    max-width: 50%;
+    margin: 3% 15%;
+   
+}
+
+.grid {
+    margin-bottom: 3%;
+   text-align: left;
+    display: flex;
+   align-items: center;
+  
+}
+
+ion-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 12vw;
+  }
+
+  
+h3 {
+  font-size: 1.5em;
+}
+
+aside {
+    padding: 40px;
+  text-align: center;
+}
+
+iframe {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+span {
+  padding: 10px;
+  color: white;
+  background-color: #A30000;
+}
+
+aside h1 {
+  margin: 30px 20px ;
+}
+
+.plans {
+  margin: 7%;
+  display: flex;
+  text-align: center;
+}
+
+.plans div {
+  width: calc(33.33% - 20px);
+  max-width: 50%;
+  margin: 20px;
+  border: 2px solid var(--first-color);
+}
+
+
+.plans h2 {
+  text-align: center;
+  background-color:var(--first-color);
+  color: white;
+  padding: 2px;
+}
+
+.plans h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.plans p {
+  text-align: left;
+  margin: 0 20px;
+}
+
+.plans input {
+  margin: 20px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-size: 1.1em;
+
+  border: none;
+  background: var(
+  --first-color
+  );
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  
+}
+
+footer {
+  padding: 0 30px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 10vh;
+  background-color: var(--first-color);
+
+}
+
+footer ul 
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer li {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

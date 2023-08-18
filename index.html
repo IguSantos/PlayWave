@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayWave</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="files/Iconarchive-Incognito-Animal-2-Rabbit.512.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="files/game-controller-icon.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>  
+
+        <a href="#" ><img class="logo" src="files/game-controller-icon.png" alt=""></a>
+
+     <nav>
+         <ul>
+          <li onclick="scrollToCategory()"><a href="#qualities">Benefícios</a></li>
+          <li><a href="#gameofweek">Jogo da semana</a></li>
+          <li><a href="#plans">Planos</a></li>
+         </ul>
+     </nav>
+    </header>
+    <main>
+
+    <section class="login">
+        <h2>Receba notícias diárias!</h2>
+        <input type="email" placeholder="Adicione seu principal email"> <br>
+        <button>Quero receber notícias</button>
+    </section> 
+
+    <div class="types" id="qualities">
+                <div class="grid">
+                  
+                        <ion-icon name="logo-steam" class="icon"></ion-icon>
+                   
+                                <div class="desc">
+                    <h3>Te oferecemos direto da steam</h3> <p>Conteúdo  oferecido  a sua conta <a href="/">steam</a></p>
+                                </div>
+                </div>
+
+        <div class="grid">
+            
+                <ion-icon name="card-outline"  class="icon"></ion-icon>
+          
+                <div class="desc">
+                   <h3>Ótimos planos</h3> <p>Preços acessíveis para você</p>
+                </div>
+        </div>
+
+         <div class="grid">
+            
+                 <ion-icon name="game-controller-outline" class="icon"></ion-icon>
+            
+                <div class="desc">
+                    <h3>Jogos incríveis</h3> <p>Jogos de todos os tipos</p>
+                </div>
+         </div>
+        </div>
+   
+
+        <aside id="gameofweek">
+
+            <h1><span>Jogo da semana</span></h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/g3r1KbzSiT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </aside>
+
+        <div class="plans" id="plans">
+
+            <div class="plan1">
+                <h2>Starter Gamer</h2>
+               <h3>R$49,99/mês</h3>
+                <p> Entre no mundo dos jogos com o nosso Plano Básico "Starter Gamer". Acesso ilimitado a uma seleção diversificada de jogos para todas as plataformas. Comece a sua jornada gamer com títulos empolgantes que abrangem uma variedade de gêneros. Este plano é perfeito para jogadores casuais e iniciantes que desejam experimentar uma ampla gama de jogos a um preço acessível.</p>
+                <input type="submit" value="Selecionar">
+            </div>
+            
+            <div class="plan2">
+                <h2>Gamer Pro</h2>
+                <h3>R$99,99/mês</h3>
+                 <p> Eleve a sua experiência gamer com o Plano Intermediário "Gamer Pro". Desfrute de acesso total a uma extensa biblioteca de jogos premium, incluindo lançamentos recentes e títulos aclamados pela crítica. Jogue em alta qualidade e mergulhe em mundos virtuais ricamente detalhados. Além disso, participe de comunidades exclusivas de jogadores, competições emocionantes e desafios in-game.</p>
+                 <input type="submit" value="Selecionar">
+            </div>
+
+            <div class="plan3">
+                <h2>Ultimate Gamer</h2>
+                <h3> R$200/mês</h3>
+                 <p> Entre no mundo dos jogos com o nosso Plano Básico "Starter Gamer". Acesso ilimitado a uma seleção diversificada de jogos para todas as plataformas. Comece a sua jornada gamer com títulos empolgantes que abrangem uma variedade de gêneros. Este plano é perfeito para jogadores casuais e iniciantes que desejam experimentar uma ampla gama de jogos a um preço acessível.</p>
+               <input type="submit" value="Selecionar">
+            </div>
+        </div>
+
+    </main>  
+
+    <footer> 
+<p>Todos os diretos reservados para PlayWave</p>
+
+<ul>
+    <li>Contato </li>
+    <li>Sobre Nós</li>
+    <li>Privacidade</li>
+</ul>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
